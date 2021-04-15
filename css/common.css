@@ -2,12 +2,18 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --bg-color: #2f303a;
+  --bg-hero-color: #2f303a;
+  --bg-color: #ffffff;
 }
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
+/*обнуление стилей */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
 }
 .list {
   list-style: none;
@@ -18,25 +24,28 @@
   text-decoration: none;
   color: inherit;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-}
+
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+.header-page {
+  background-color: var(--bg-hero-color);
+}
+.header-block {
+  display: flex;
+  align-items: center;
+}
 .nav {
   display: flex;
 }
 .logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -48,18 +57,19 @@ body {
 }
 .nav-list {
   display: flex;
+  margin-left: 93px;
 }
 .current {
   color: var(--accent-color) !important;
 }
-.nav-list > .nav-item {
+.nav-list .nav-item:not(:last-child) {
   margin-right: 50px;
-}
-.nav-list > .nav-item:last-child {
-  margin-right: 0px;
 }
 
 .nav-list .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -70,16 +80,26 @@ body {
 .nav-list .nav-link:focus {
   color: var(--accent-color);
 }
-.address-list .address-phone {
+.address-list {
+  display: flex;
+  margin-left: auto;
+}
+.address-item .address-phone {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.address-list .address-phone:hover,
-.address-list .address-phone:focus {
+.address-item .address-phone:hover,
+.address-item .address-phone:focus {
   color: var(--accent-color);
+}
+.address-list .address-item:not(:last-child) {
+  margin-right: 50px;
 }
 .visually-hidden {
   position: absolute !important;
@@ -92,7 +112,7 @@ body {
   overflow: hidden;
 }
 footer {
-  background-color: var(--bg-color);
+  background-color: var(--bg-hero-color);
 }
 footer > .logo > .word {
   color: #ffffff;
