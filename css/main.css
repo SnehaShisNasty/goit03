@@ -1,3 +1,6 @@
+body {
+  background-color: #e5e5e5;
+}
 .hero {
   background-color: var(--bg-hero-color);
 }

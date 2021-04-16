@@ -41,13 +41,12 @@ img {
   height: auto;
 }
 body {
-  background-color: #e5e5e5;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 .header-page {
-  border-color: #ffffff;
+  background-color: #ffffff;
 }
 .container-header {
   width: 1200px;
@@ -166,6 +165,10 @@ footer {
 }
 footer .logo > .word {
   color: #ffffff;
+}
+footer .logo {
+  padding-bottom: 20px;
+  padding-top: 0px;
 }
 address {
   font-style: normal;
