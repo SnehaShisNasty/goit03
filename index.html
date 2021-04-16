@@ -20,192 +20,201 @@
   <body>
     <!---Хедер-->
     <header class="header-page">
-      <div class="header-block">
-        <!---навигация-->
-        <nav class="nav">
-          <a class="logo link" href="./index.html"
-            ><span>Web</span><span class="word">Studio</span></a
-          >
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a class="nav-link current link" href="./index.html"
-                ><span>Студия</span></a
+      <div class="container-header">
+        <div class="header-block">
+          <!---навигация-->
+          <nav class="nav">
+            <a class="logo link" href="./index.html"
+              ><span>Web</span><span class="word">Studio</span></a
+            >
+            <ul class="nav-list list">
+              <li class="nav-item">
+                <a class="nav-link current link" href="./index.html"
+                  ><span>Студия</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="./html/portfolio.html"
+                  ><span>Портфолио</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#"><span>Контакты</span></a>
+              </li>
+            </ul>
+          </nav>
+          <!---Адрес-->
+          <ul class="address-list list">
+            <li class="address-item">
+              <a class="address-phone link" href="mailto:info@devstudio.com"
+                ><span>info@devstudio.com</span></a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="./html/portfolio.html"
-                ><span>Портфолио</span></a
+            <li class="address-item">
+              <a class="address-phone link" href="tel:+380961111111"
+                ><span>+38 096 111 11 11</span></a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="#"><span>Контакты</span></a>
             </li>
           </ul>
-        </nav>
-        <!---Адрес-->
-        <ul class="address-list list">
-          <li class="address-item">
-            <a class="address-phone link" href="mailto:info@devstudio.com"
-              ><span>info@devstudio.com</span></a
-            >
-          </li>
-          <li class="address-item">
-            <a class="address-phone link" href="tel:+380961111111"
-              ><span>+38 096 111 11 11</span></a
-            >
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <!---Мейн-->
     <main>
-      <h1 class="visually-hidden">Сайт для веб розроботки</h1>
       <!---Hero-->
-      <div class="hero"></div>
-      <!---Секция-1-->
-      <section class="section">
-        <h2 class="heading">Эффективные решения для вашего бизнеса</h2>
-        <button class="button-hero" type="button">Заказать услугу</button>
-      </section>
+      <div class="hero">
+        <div class="container hero-conteiner">
+          <h1 class="visually-hidden">Сайт для веб розроботки</h1>
+          <!---Секция-1-->
+          <section class="section">
+            <h2 class="heading">Эффективные решения для вашего бизнеса</h2>
+            <button class="button-hero" type="button">Заказать услугу</button>
+          </section>
+        </div>
+      </div>
       <!---Секция-2-->
-      <section class="section">
-        <h2 class="visually-hidden">Преимущества нашей компании</h2>
-        <ul class="feature-list list">
-          <li class="feature-item">
-            <h3 class="feature-title">Внимание к деталям</h3>
-            <p class="feature-text">
-              Идейные соображения, а также начало<br />
-              повседневной работы по формированию <br />
-              позиции.
-            </p>
-          </li>
-          <li class="feature-item">
-            <h3 class="feature-title">Пунктуальность</h3>
-            <p class="feature-text">
-              Задача организации, в особенности <br />
-              же рамки и место обучения кадров <br />
-              влечет за собой.
-            </p>
-          </li>
-          <li class="feature-item">
-            <h3 class="feature-title">Планирование</h3>
-            <p class="feature-text">
-              Равным образом консультация с <br />
-              широким активом в значительной <br />
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="feature-item">
-            <h3 class="feature-title">Современные технологии</h3>
-            <p class="feature-text">
-              Значимость этих проблем настолько <br />
-              очевидна, что реализация плановых <br />
-              заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="feature">
+        <div class="container">
+          <h2 class="visually-hidden">Преимущества нашей компании</h2>
+          <ul class="feature-list list">
+            <li class="feature-item">
+              <h3 class="feature-title">Внимание к деталям</h3>
+              <p class="feature-text">
+                Идейные соображения, а также<br />
+                начало повседневной работы по<br />
+                формированию позиции.
+              </p>
+            </li>
+            <li class="feature-item">
+              <h3 class="feature-title">Пунктуальность</h3>
+              <p class="feature-text">
+                Задача организации, в особенности <br />
+                же рамки и место обучения кадров <br />
+                влечет за собой.
+              </p>
+            </li>
+            <li class="feature-item">
+              <h3 class="feature-title">Планирование</h3>
+              <p class="feature-text">
+                Равным образом консультация с <br />
+                широким активом в значительной <br />
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="feature-item">
+              <h3 class="feature-title">Современные технологии</h3>
+              <p class="feature-text">
+                Значимость этих проблем настолько <br />
+                очевидна, что реализация плановых <br />
+                заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!---Секция-3-->
       <section class="section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li class="item">
-            <img
-              class="img"
-              src="./img/main/1.jpg"
-              alt="Робота над кодом"
-              width="370"
-            />
-          </li>
-          <li class="item">
-            <img
-              class="img"
-              src="./img/main/2.jpg"
-              alt="Робота с телефоном"
-              width="370"
-            />
-          </li>
-          <li class="item">
-            <img
-              class="img"
-              src="./img/main/3.jpg"
-              alt="Робота с палитрой"
-              width="370"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="gallery-list list">
+            <li class="gallery-item">
+              <img
+                class="img"
+                src="./img/main/1.jpg"
+                alt="Робота над кодом"
+                width="370"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                class="img"
+                src="./img/main/2.jpg"
+                alt="Робота с телефоном"
+                width="370"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                class="img"
+                src="./img/main/3.jpg"
+                alt="Робота с палитрой"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!---Секция-4-->
-      <section class="section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="card-set list">
-          <li class="item">
-            <article class="card">
-              <div class="card-img">
-                <img
-                  class="img"
-                  src="./img/main/4.jpg"
-                  alt="Фотопортрет Игоря
-                Демьяненко"
-                  width="270"
-                />
-              </div>
-              <div class="card-content">
-                <h3 class="card-heading">Игорь Демьяненко</h3>
-                <p class="card-text">Product Designer</p>
-              </div>
-            </article>
-          </li>
-          <li class="item">
-            <article class="card">
-              <div class="card-img">
-                <img
-                  class="img"
-                  src="./img/main/5.jpg"
-                  alt="Фотопортрет Ольги
-                Репиной"
-                  width="270"
-                />
-              </div>
-              <div class="card-content">
-                <h3 class="card-heading">Ольга Репина</h3>
-                <p class="card-text">Frontend Developer</p>
-              </div>
-            </article>
-          </li>
-          <li class="item">
-            <article class="card">
-              <div class="card-img">
-                <img
-                  class="img"
-                  src="./img/main/6.jpg"
-                  alt="Фотопортрет Николая Тарасова"
-                  width="270"
-                />
-              </div>
-              <div class="card-content">
-                <h3 class="card-heading">Николай Тарасов</h3>
-                <p class="card-text">Marketing</p>
-              </div>
-            </article>
-          </li>
-          <li class="item">
-            <article class="card">
-              <div class="card-img">
-                <img
-                  class="img"
-                  src="./img/main/7.jpg"
-                  alt="Фотопортрет Михаила Ермакова"
-                  width="270"
-                />
-              </div>
-              <div class="card-content">
-                <h3 class="card-heading">Михаил Ермаков</h3>
-                <p class="card-text">UI Designer</p>
-              </div>
-            </article>
-          </li>
-        </ul>
+      <section class="about">
+        <div class="about-container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="card-set list">
+            <li class="item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="img"
+                    src="./img/main/4.jpg"
+                    alt="Фотопортрет Игоря Демьяненко"
+                    width="270"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-heading">Игорь Демьяненко</h3>
+                  <p class="card-text">Product Designer</p>
+                </div>
+              </article>
+            </li>
+            <li class="item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="img"
+                    src="./img/main/5.jpg"
+                    alt="Фотопортрет Ольги Репиной"
+                    width="270"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-heading">Ольга Репина</h3>
+                  <p class="card-text">Frontend Developer</p>
+                </div>
+              </article>
+            </li>
+            <li class="item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="img"
+                    src="./img/main/6.jpg"
+                    alt="Фотопортрет Николая Тарасова"
+                    width="270"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-heading">Николай Тарасов</h3>
+                  <p class="card-text">Marketing</p>
+                </div>
+              </article>
+            </li>
+            <li class="item">
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="img"
+                    src="./img/main/7.jpg"
+                    alt="Фотопортрет Михаила Ермакова"
+                    width="270"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-heading">Михаил Ермаков</h3>
+                  <p class="card-text">UI Designer</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!---Футер-->
