@@ -98,16 +98,19 @@
   margin-top: 30px;
 }
 .card-set .card {
-  background: tomato;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 2px 1px #00000033;
   border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
 }
 .card .img {
   min-height: 260px;
 }
+.card-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .card-heading {
-  margin-top: 30px;
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
@@ -120,5 +123,4 @@
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin-bottom: 30px;
 }

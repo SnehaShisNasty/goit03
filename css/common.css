@@ -151,13 +151,27 @@ body {
 footer {
   background-color: var(--bg-hero-color);
 }
-footer > .logo > .word {
+.container-footer {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.addres-block {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+footer .logo > .word {
   color: #ffffff;
 }
 address {
   font-style: normal;
 }
 .addres-text {
+  margin-bottom: 9px;
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
@@ -165,6 +179,10 @@ address {
 }
 .addres-phone {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+}
+.addres-phone:not(:last-child) {
+  margin-bottom: 9px;
 }
