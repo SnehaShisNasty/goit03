@@ -1,29 +1,23 @@
 body {
   background-color: #e5e5e5;
 }
-.hero {
+.container .section-title {
+  margin-bottom: 50px;
+}
+.section-hero {
   background-color: var(--bg-hero-color);
-}
-.hero .section {
   text-align: center;
-}
-.hero-conteiner {
-  padding-left: 252px !important;
-  padding-right: 252px !important;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.section > .heading {
+.section-hero .heading {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
 }
 .button-hero {
   color: #ffffff;
@@ -37,6 +31,10 @@ body {
   border: none;
   cursor: pointer;
   padding: 10px 32px;
+}
+.section-feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list {
@@ -63,6 +61,9 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+.section-gallery {
+  padding-bottom: 94px;
+}
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
@@ -74,22 +75,12 @@ body {
   margin-left: 30px;
   margin-top: 30px;
 }
-.about {
+.section-about {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-.about-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.section-title + .about {
-  margin-bottom: 50px;
-}
-.about .card-set {
+.section-about .card-set {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;

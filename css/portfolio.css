@@ -6,8 +6,8 @@ body {
   border-bottom: 1px solid #ececec;
 }
 .section {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .block-button {
   display: block;
@@ -27,11 +27,12 @@ body {
   background-color: var(--accent-color);
 }
 .block-list > .item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 .block-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .card-set {
   display: flex;
@@ -53,7 +54,7 @@ body {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .card-content {
-  padding: 20px 21px;
+  padding: 20px 24px;
 }
 .card-content > .card-heading {
   margin-bottom: 4px;
